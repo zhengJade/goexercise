@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/zhengJade/goexercise/urlshort"
+	"github.com/zhengJade/goexercise/exercise2/urlshort"
 )
 
 func main() {
