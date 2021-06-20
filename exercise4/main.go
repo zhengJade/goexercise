@@ -38,7 +38,7 @@ func initTabel() {
 
 func initDB() (err error) {
 	// DSN:Data Source Name
-	dsn := "root:jz1997...@tcp(39.105.57.72:3306)/phonenums?charset=utf8mb4&parseTime=True"
+	dsn := "root:fake@tcp(39.105.57.72:3306)/phonenums?charset=utf8mb4&parseTime=True"
 	// 不会校验账号密码是否正确
 	// 注意！！！这里不要使用:=，我们是给全局变量赋值，然后在main函数中使用全局变量db
 	MDb.db, err = sql.Open("mysql", dsn)
